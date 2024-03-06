@@ -1,0 +1,102 @@
+<html>
+  <head>
+    <title>Electoral Search</title>
+    <!--<script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>*-->
+
+
+    
+    <script type="module" src="./addressfill.js"></script>
+  </head>
+  <body>
+    <br>
+    <img src="ausgovlogo.png" alt="Australia Government Logo" style="width:400px;height:100px;">
+
+    <!-- Note: The address components in this sample are based on North American address format. You might need to adjust them for the locations relevant to your app. For more information, see
+https://developers.google.com/maps/documentation/javascript/examples/places-autocomplete-addressform
+    -->
+    <br>
+    <h2 style="font-family:verdana; padding-left: 30px;">Electoral Role Search</h2>
+    <hr class="solid">
+
+    <form
+     id="voterval-form"
+     method="post" 
+     autocomplete="off"
+     action="index.php"
+     style="font-family:verdana; padding-left:30px;">
+      <p class="note"><em>* = required field</em></p>
+    Full Name*: <br>
+      <input
+       required 
+       id="voter_name" 
+       name="voter_name" 
+       style="width:500px;height:35px;"/>
+       <br>
+       <br>
+
+    Address Line 1*:<br>
+       <input
+        id="line1" 
+        name="line1" 
+        placeholder="Enter address..." 
+        autocomplete="off"
+        style="width:500px;height:35px;"
+        required/>
+        <br>
+        <br>
+    Apartment Suite, etc (optional): <br>
+        <input
+        id="line2" 
+        name="line2" 
+        type="text" 
+        style="width:500px;height:35px;"/>
+        <br>
+        <br>
+    Suburb*: <br>
+        <input
+         id="suburb" 
+         name="suburb" 
+         required 
+         style="width:500px;height:35px;"/>
+         <br>
+         <br>
+    State*: <br>
+        <input
+        id="state" 
+        name="state" 
+        required 
+        style="width:500px;height:35px;"/>
+        <br>
+        <br>
+    Postcode*: <br>
+        <input
+        id="postcode" 
+        name="postcode" 
+        required 
+        style="width:500px;height:35px;"/>
+        <br>
+        <br>
+
+    
+    <label for="voteYet">Have you voted before in THIS election? (Tick if already voted) <input type="checkbox" id="voteYet""></label>
+    <br>
+    <br>
+    <input type="submit" value="NEXT" onclick="checkBoxOutput();" >      
+    </form>
+
+    <!--Alert voters if they checked the box-->
+    <script>
+        function checkBoxOutput(){ 
+            var form = document.getElementById("voterval-form");
+            checkbox = document.getElementById("voteYet");
+            if (checkbox.checked) 
+                { alert('You have already voted! Do not vote again.');
+                form.setAttribute("action","index.html");}
+        }
+    </script>
+    <script
+    src="https://maps.googleapis.com/maps/api/js?key=####&callback=initAutocomplete&libraries=places&v=weekly"
+    defer
+    ></script>
+  </body>
+</html>

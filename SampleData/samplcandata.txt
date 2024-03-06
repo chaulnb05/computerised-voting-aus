@@ -1,0 +1,16 @@
+CandidateID,fname,lname,partycode,electionid,electorate
+2435,Edward,Sok,LDP,20220521,Hotham
+7483,Clare,O’Neil,ALP,20220521,Hotham
+8392,Louisa,Willoughby,GRN,20220521,Hotham
+4923,Bruce Scott,Ridgway,UAP,20220521,Hotham
+2938,Roger,Tull,PHON,20220521,Hotham
+3928,Savitri,Bevinakoppa,LP,20220521,Hotham
+4628,Justin,Borg,UAP,20220521,Melbourne
+3820,Keir,Paterson,ALP,20220521,Melbourne
+6492,Adam,Bandt,GRN,20220521,Melbourne
+1309,James,Damches,LP,20220521,Melbourne
+3137,Richard,Peppard,LDP,20220521,Melbourne
+5837,Scott,Robson,IND,20220521,Melbourne
+4832,Walter,Stragan,PHON,20220521,Melbourne
+7320,Bruce,Poon,AJP,20220521,Melbourne
+4392,Colleen,Bolger,VS,20220521,Melbourne

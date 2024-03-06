@@ -1,0 +1,5 @@
+Partycode,Partyname
+LDP,LIberal Democrats
+PHON,Pauline Hanson's One Nation
+AJP,Animal Justice Party
+VS,Victorian Socialists
