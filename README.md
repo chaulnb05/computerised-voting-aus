@@ -18,7 +18,7 @@ I made the artistic choice to make the website simple yet practical and user-fri
 The website implements an [Autocomplete API](https://developers.google.com/maps/documentation/javascript/place-autocomplete) by Google Maps, which fastens the process of filling in information and ensures the consistency and validity of residential information by preventing things like typos made by voters. 
 This is also one of the compulsory requirements for this assignment.
 
-<img width="430" alt="Screen Shot 2024-03-05 at 21 31 10" src="https://github.com/chaulnb05/computerised-voting-aus/assets/155965902/e8588597-01a1-4239-b870-48a7b8c8069e"> <img width="409" alt="Screen Shot 2024-03-06 at 11 37 38" src="https://github.com/chaulnb05/computerised-voting-aus/assets/155965902/899c7e0d-73ae-41cc-a462-ff62afdf599f">
+<img width="410" alt="Screen Shot 2024-03-05 at 21 31 10" src="https://github.com/chaulnb05/computerised-voting-aus/assets/155965902/e8588597-01a1-4239-b870-48a7b8c8069e"> <img width="382" alt="Screen Shot 2024-03-06 at 11 37 38" src="https://github.com/chaulnb05/computerised-voting-aus/assets/155965902/899c7e0d-73ae-41cc-a462-ff62afdf599f">
 
 
 
