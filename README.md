@@ -10,12 +10,15 @@ This website is the computerized version of the House of Representatives electio
 ### Front-End: the Website
 I made the artistic choice to make the website simple yet practical and user-friendly as it is meant to be a governmental website for citizens of all ages and backgrounds. A straight-to-the-point interface will quickly and effortlessly guide users through the voting process without any confusion or distraction. Below are some screenshots of the website:
 
-
+<img width="275" alt="Screen Shot 2024-03-06 at 11 29 36" src="https://github.com/chaulnb05/computerised-voting-aus/assets/155965902/1ef8f5f3-3325-4195-9ee6-3d10cb4a7abc">
+<img width="246" alt="Screen Shot 2024-03-06 at 11 38 03" src="https://github.com/chaulnb05/computerised-voting-aus/assets/155965902/d37eaddf-e42b-4c5f-a466-47ff420c9c0f">
 
 
 #### Google Maps API
 The website implements an [Autocomplete API](https://developers.google.com/maps/documentation/javascript/place-autocomplete) by Google Maps, which fastens the process of filling in information and ensures the consistency and validity of residential information by preventing things like typos made by voters. 
 This is also one of the compulsory requirements for this assignment.
+
+<img width="303" alt="Screen Shot 2024-03-05 at 21 31 10" src="https://github.com/chaulnb05/computerised-voting-aus/assets/155965902/e8588597-01a1-4239-b870-48a7b8c8069e"> <img width="273" alt="Screen Shot 2024-03-06 at 11 37 38" src="https://github.com/chaulnb05/computerised-voting-aus/assets/155965902/899c7e0d-73ae-41cc-a462-ff62afdf599f">
 
 
 
